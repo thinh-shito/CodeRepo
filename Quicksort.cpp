@@ -26,11 +26,11 @@ int main()
 {
 	int m;
 	cin>>m;
-	int *a =new int [n];
-	for(int i=0; i<n; i++)
+	int *a =new int [m];
+	for(int i=0; i<m; i++)
 	cin>>a[i];
-	QuickSort(a,0,n-1);
-		for(int i=0; i<n; i++)
+	QuickSort(a,0,m-1);
+		for(int i=0; i<m; i++)
 		cout<<a[i]<<endl;
 	
 	return 0;
