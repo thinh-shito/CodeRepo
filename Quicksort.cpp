@@ -4,7 +4,7 @@ using namespace std;
 
 void QuickSort(int *a, int left, int right)
 {
-	int x=a[(left+right)/2];
+	int x=a[(left+right)/2];// Tìm điểm phân hoạch
 	int i=left;
 	int j=right;
 		while (i<j)
