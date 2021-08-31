@@ -4,7 +4,7 @@ using namespace std;
 
 void QuickSort(int *a, int left, int right)
 {
-	int x=a[(left+right)/2];// Tìm điểm phân hoạch
+	int x=a[(left+right)/2]; // Tìm điểm phân hoạch
 	int i=left;
 	int j=right;
 		while (i<j)
@@ -24,8 +24,8 @@ void QuickSort(int *a, int left, int right)
 
 int main()
 {
-	int n;
-	cin>>n;
+	int m;
+	cin>>m;
 	int *a =new int [n];
 	for(int i=0; i<n; i++)
 	cin>>a[i];
